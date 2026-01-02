@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#007da3</color>
+    <color name="primaryContainerColor">#007da3</color> <!-- Material3 的状态栏用这个 -->
+</resources>
