@@ -36,7 +36,7 @@ public class WellApplication extends Application {
         File filesDir = getFilesDir();
         String path = filesDir.getAbsolutePath();
         path = path+"/pb_data";
-        String[] args={"--dev","serve","--dir",path};
+        String[] args={"serve","--dir",path};
         String argsStr = "";
         try {
             argsStr = new JSONArray(args).toString();

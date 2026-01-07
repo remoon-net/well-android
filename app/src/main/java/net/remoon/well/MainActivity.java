@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         settings.setDomStorageEnabled(true);
 
         webView.setWebViewClient(new WebViewClient());
-        String addr = "http://"+WellApplication.listenAddr+"/_/";
+        String addr = "http://"+WellApplication.listenAddr+"/";
         webView.loadUrl(addr);
 
         setContentView(webView);
