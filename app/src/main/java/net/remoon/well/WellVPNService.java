@@ -33,6 +33,7 @@ public class WellVPNService extends VpnService {
         builder.setMtu(2400);
         builder.setBlocking(true);
         builder.addDisallowedApplication("net.remoon.well");
+        builder.addDisallowedApplication("net.remoon.well.debug");
         android.os.ParcelFileDescriptor tun = builder.establish();
         int fd = tun.detachFd();
         Cmd.startWireGuard(fd);
